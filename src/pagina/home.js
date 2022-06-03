@@ -58,7 +58,7 @@ class Home extends React.Component{
             <h2 class="title">Sobre</h2>
             <div class="about-content">
                 <div class="column left">
-                    <img src="../../assets/image/sobre.jpg" alt=""/>
+                    <img src="../../sobre.jpg" alt=""/>
                 </div>
                 <div class="column right">
                     
@@ -116,7 +116,7 @@ class Home extends React.Component{
            <div class="carousel owl-carousel ">
                <div class="card">
                    <div class="box">
-                       <img src="../../assets/image/alfa.jpg" alt="Alfa" />
+                       <img src="../../alfa.jpg" alt="Alfa" />
                        <div class="text">Ester Sebastião</div>
                        <p>- Licenciada em Psicologia do Trabalho. <br/> - Experiência na área: 3 anos.<br/>
                         - Estado: Trabalhando. <br/>
@@ -129,7 +129,7 @@ class Home extends React.Component{
                </div>
                <div class="card">
                 <div class="box">
-                    <img src="../../assets/image/nayol.jpg" alt="nayol"/>
+                    <img src="../../nayol.jpg" alt="nayol"/>
                     <div class="text">Zélia Salvador</div>
                     <p>- Ensino Médio Concluido. <br/> - Curso: Construção Civil.<br/>
                         - Estado: Trabalhando. <br/>
@@ -140,7 +140,7 @@ class Home extends React.Component{
             </div>
             <div class="card">
                 <div class="box">
-                    <img src="../../assets/image/mama.jpg" alt=" Mama"/>
+                    <img src="../../mama.jpg" alt=" Mama"/>
                     <div class="text">Mirokua Leitão</div>
                     <p>- Estudante. <br/> - Curso: Mecatronica.<br/>
                         - Estado: Trabalhando por conta própria. <br/>
@@ -152,7 +152,7 @@ class Home extends React.Component{
             </div>
             <div class="card">
                 <div class="box">
-                    <img src="../../assets/image/marcio.jpg" alt=""/>
+                    <img src="../../marcio.jpg" alt=""/>
                     <div class="text">Márcio da Fonseca</div>
                     <p>
                     - Estudante. <br/> - Curso: Ciências da Computação.<br/>
@@ -165,7 +165,7 @@ class Home extends React.Component{
             </div>
             <div class="card">
                 <div class="box">
-                    <img src="../../assets/image/genio.jpg" alt=""/>
+                    <img src="../../genio.jpg" alt=""/>
                     <div class="text">Sueli</div>
                     <p> - Estudante. <br/> - Curso: Ciências da Computação.<br/>
                         - Profissão: Designer Gráfico. <br/>
