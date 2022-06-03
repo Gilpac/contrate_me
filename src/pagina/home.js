@@ -1,5 +1,23 @@
 import React from 'react';
 
+import { useState } from 'react';
+
+function MyButton() {
+  const [count, setCount] = useState(0);
+
+  function handleClick() {
+    setCount(count + 1);
+  }
+
+  return (
+    <button  type="submit" className="button" onClick={handleClick}>
+      {count} Likes
+    </button>
+  );
+}
+
+
+
 class Home extends React.Component{
     render(){
         return(
@@ -13,10 +31,10 @@ class Home extends React.Component{
             <ul class="menu">
                 <li><a href="#home">Inicio</a></li>
                 <li><a href="#about">Sobre</a></li>
-                <li><a href="#services">Serviços</a></li>
-                <li><a href="#skills">Especialidade</a></li>
-                <li><a href="#teams">Equipe</a></li>
-                <li><a href="#contact">Contato</a></li>
+                <li><a href="#services">Aviso</a></li>
+                
+                <li><a href="#teams">Pessoas</a></li>
+                
             </ul>
             <div class="menu-btn">
                 <ion-icon name="menu-outline"></ion-icon>
@@ -58,68 +76,7 @@ class Home extends React.Component{
     </section>
 
 
-    <section class="teams" id="teams">
-        <div class="max-width">
-            <h2 class="title">Encontre aqui o seu Funcionário.</h2>
-           <div class="carousel owl-carousel ">
-               <div class="card">
-                   <div class="box">
-                       <img src="../../assets/image/alfa.jpg" alt="Alfa" />
-                       <div class="text">Ester Sebastião</div>
-                       <p>- Licenciada em Psicologia do Trabalho. <br/> - Experiência na área: 3 anos.<br/>
-                        - Estado: Trabalhando. <br/>
-                        - Gmail: ester@gmail.com <br/>
-                        - Telefone: 928 499 244.
-                       </p>
-                   </div>
-               </div>
-               <div class="card">
-                <div class="box">
-                    <img src="../../assets/image/nayol.jpg" alt="nayol"/>
-                    <div class="text">Zélia Salvador</div>
-                    <p>- Ensino Médio Concluido. <br/> - Curso: Construção Civil.<br/>
-                        - Estado: Trabalhando. <br/>
-                        - Gmail: ester@gmail.com <br/>
-                        - Telefone: 928 499 244.</p>
-                </div>
-            </div>
-            <div class="card">
-                <div class="box">
-                    <img src="../../assets/image/mama.jpg" alt=" Mama"/>
-                    <div class="text">Mirokua Leitão</div>
-                    <p>- Estudante. <br/> - Curso: Mecatronica.<br/>
-                        - Estado: Trabalhando por conta própria. <br/>
-                        - Gmail: ester@gmail.com <br/>
-                        - Telefone: 928 499 244.
-                        </p>
-                </div>
-            </div>
-            <div class="card">
-                <div class="box">
-                    <img src="../../assets/image/marcio.jpg" alt=""/>
-                    <div class="text">Márcio da Fonseca</div>
-                    <p>
-                    - Estudante. <br/> - Curso: Ciências da Computação.<br/>
-                        - Profissão: Designer Gráfico. <br/>
-                        - Gmail: ester@gmail.com <br/>
-                        - Telefone: 928 499 244.
-                    </p>
-                </div>
-            </div>
-            <div class="card">
-                <div class="box">
-                    <img src="../../assets/image/genio.jpg" alt=""/>
-                    <div class="text">Sueli</div>
-                    <p> - Estudante. <br/> - Curso: Ciências da Computação.<br/>
-                        - Profissão: Designer Gráfico. <br/>
-                        - Gmail: ester@gmail.com <br/>
-                        - Telefone: 928 499 244.</p>
-                </div>
-            </div>
-           </div>
-        </div>
-    </section>
-
+    
 
 
     <section class="services" id="services">
@@ -152,6 +109,75 @@ class Home extends React.Component{
             </div>
         </div>
     </section>
+
+    <section class="teams" id="teams">
+        <div class="max-width">
+            <h2 class="title">Encontre aqui o seu Funcionário.</h2>
+           <div class="carousel owl-carousel ">
+               <div class="card">
+                   <div class="box">
+                       <img src="../../assets/image/alfa.jpg" alt="Alfa" />
+                       <div class="text">Ester Sebastião</div>
+                       <p>- Licenciada em Psicologia do Trabalho. <br/> - Experiência na área: 3 anos.<br/>
+                        - Estado: Trabalhando. <br/>
+                        - Gmail: ester@gmail.com <br/>
+                        - Telefone: 928 499 244.
+                       </p>
+
+                       <MyButton />
+                   </div>
+               </div>
+               <div class="card">
+                <div class="box">
+                    <img src="../../assets/image/nayol.jpg" alt="nayol"/>
+                    <div class="text">Zélia Salvador</div>
+                    <p>- Ensino Médio Concluido. <br/> - Curso: Construção Civil.<br/>
+                        - Estado: Trabalhando. <br/>
+                        - Gmail: ester@gmail.com <br/>
+                        - Telefone: 928 499 244.</p>
+                        <MyButton />
+                </div>
+            </div>
+            <div class="card">
+                <div class="box">
+                    <img src="../../assets/image/mama.jpg" alt=" Mama"/>
+                    <div class="text">Mirokua Leitão</div>
+                    <p>- Estudante. <br/> - Curso: Mecatronica.<br/>
+                        - Estado: Trabalhando por conta própria. <br/>
+                        - Gmail: ester@gmail.com <br/>
+                        - Telefone: 928 499 244.
+                        </p>
+                        <MyButton />
+                </div>
+            </div>
+            <div class="card">
+                <div class="box">
+                    <img src="../../assets/image/marcio.jpg" alt=""/>
+                    <div class="text">Márcio da Fonseca</div>
+                    <p>
+                    - Estudante. <br/> - Curso: Ciências da Computação.<br/>
+                        - Profissão: Designer Gráfico. <br/>
+                        - Gmail: ester@gmail.com <br/>
+                        - Telefone: 928 499 244.
+                    </p>
+                    <MyButton />
+                </div>
+            </div>
+            <div class="card">
+                <div class="box">
+                    <img src="../../assets/image/genio.jpg" alt=""/>
+                    <div class="text">Sueli</div>
+                    <p> - Estudante. <br/> - Curso: Ciências da Computação.<br/>
+                        - Profissão: Designer Gráfico. <br/>
+                        - Gmail: ester@gmail.com <br/>
+                        - Telefone: 928 499 244.</p>
+                        <MyButton />
+                </div>
+            </div>
+           </div>
+        </div>
+    </section>
+
 
     <footer>
         <span>Criado por <a href="#">Gilson_Sebastião</a> | Todos os direitos reservado 2022</span>
