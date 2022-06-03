@@ -153,73 +153,8 @@ class Home extends React.Component{
         </div>
     </section>
 
-
-    
-
-
-    
-    <section class="contact" id="contact">
-        <div class="max-width">
-            <h2 class="title">Contato</h2>
-            <div class="contact-content">
-               <div class="column left">
-                   <div class="text">Fale Conosco</div>
-                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas impedit laudantium saepe, voluptate libero fugiat in, dolores voluptatem distinctio animi et iusto, amet possimus tenetur modi cupiditate. Odio, numquam fuga perferendis vitae ullam eum, ipsam tempora unde nisi optio vero recusandae ipsa asperiores rem, labore impedit laudantium officiis maiores natus.</p>
-               
-               <div class="icons">
-                   <div class="row">
-                        <ion-icon name="person-outline"></ion-icon>
-                        <div class="info">
-                            <div class="head">Nome</div>
-                            <div class="sub-title">Ricardo Ferreira</div>
-                        </div>
-                   </div>
-                   <div class="row">
-                    <ion-icon name="earth-outline"></ion-icon>
-                    <div class="info">
-                        <div class="head">Endereço</div>
-                        <div class="sub-title">Campo Grande, MS</div>
-                    </div>
-               </div>
-               <div class="row">
-                <ion-icon name="person-outline"></ion-icon>
-                <div class="info">
-                    <div class="head">Email</div>
-                    <div class="sub-title">aeiou@gmail.com</div>
-                </div>
-           </div>
-               </div>
-            </div>
-            <div class="column rigth">
-                <div class="text">Mensagem</div>
-                <form action="#">
-                    <div class="fields">
-                        <div class="field name">
-                            <input type="text" placeholder="Nome" required/>
-                        </div>
-                        <div class="field email">
-                            <input type="email" placeholder="Email" required/>
-                        </div>
-                    </div>
-                    <div class="field">
-                        <div class="field">
-                            <input type="text" placeholder="Sobrenome" required/>
-                        </div>
-                        <div class="field textarea">
-                           <textarea  cols="30" rows="10" placeholder="Escrever...." required></textarea>
-                        </div>
-                        <div class="button">
-                            <button type="submit">Enviar</button>
-                        </div>
-                    </div>
-                </form>
-            </div>
-            </div>
-        </div>
-    </section>
-
     <footer>
-        <span>Criado por <a href="#">Front</a> | Todos os direitos reservado 2021</span>
+        <span>Criado por <a href="#">Gilson_Sebastião</a> | Todos os direitos reservado 2022</span>
     </footer>
 </>
             )
