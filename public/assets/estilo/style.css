@@ -65,7 +65,7 @@ html{
 /*  Home   inicio  */
 .home{
     display: flex;
-    background: url(../../assets/image/109.png) no-repeat;
+    background: url(../../109.png) no-repeat;
     background-size: 500px;
     background-position: right;
     height: 10vh;
